@@ -1,0 +1,13 @@
+package array;
+
+public class Reverse {
+    public static void main(String[] args) {
+        String str = "SUNFLOWER LILY";
+        
+        StringBuilder n = new StringBuilder(str);
+        n.reverse(); 
+        String reversedStr = n.toString();
+        
+        System.out.println("Reversed String: " + reversedStr);
+    }
+}
